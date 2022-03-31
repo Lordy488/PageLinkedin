@@ -1,0 +1,79 @@
+<style>
+   body{
+       margin: 0%;
+   }
+   h1{
+       text-align: center;
+       color: turquoise;
+   }
+
+    section{
+        height: 100vh;
+        background-image: url('https://www.terre.tv/wp-content/uploads/2020/05/plus-belles-plages-cuba.jpg');
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    form{
+        width: 500px;
+        background-color: skyblue;
+        padding: 50px;
+        box-sizing: border-box;
+        border-radius: 20px;
+    }
+    input{
+        display: block;
+        margin: 10px auto;
+        width: 400px;
+        padding: 10px 20px;
+        outline: none;
+        border: black;
+        box-sizing: border-box;
+        border-radius: 6px;
+    }
+    #input1[type="submit"]{
+        background-color: blue;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    #input2[type="submit"]{
+        background-color: lightblue;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    em{
+        color: blue;
+        cursor: pointer;
+    }
+    #input1:hover{
+        background-color: aqua;
+    }
+    #input2:hover{
+        background-color: lightgoldenrodyellow;
+    }
+    em:hover{
+        text-decoration: underline;
+    }
+    #p1{
+        text-align: center;
+    }
+    .input::placeholder{
+        text-align: left;
+    }
+    strong{
+        color: blue;
+        cursor: pointer;
+    }
+    strong:hover{
+        text-decoration: underline;
+    }
+    #p2{
+        position: absolute;
+        text-align: center;
+        top: 700px;
+        bottom: 600px;
+    }
+</style>
